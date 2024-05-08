@@ -1,0 +1,36 @@
+POSSIBLE INJECTION POINT WHERE YOU CAN TEST PAYLOADS
+
+ BugHunting Tips
+ POSSIBLE INJECTION POINT WHERE YOU CAN TEST PAYLOADS
+
+"Cookie": test={payload},
+"User-Agent": test(payload),
+"Location": test {payload)
+"Origin": test(payload),
+"Referer": test(payload),
+"Profile": test (payload),
+"X-Host" test{payload),
+"Via": test(payload),
+"True-Client-IP": test(payload),
+"X-Forwarded-For": test(payload),
+"Forwarded": for spoofed. (payload),
+"X-Wap-Profile": test(payload),
+"Destination": test={payload),
+"Contact": test@{payload),
+"X-Originating-IP": test(payload),
+"X-Original-URL: test{payload),
+"X-Client-IP": test{payload),
+"X-HTTP-Destination URL": test (payload),
+"X-Api-Version": test(payload),
+"Proxy": test{payload),
+"Referer": test {payload),
+"CF-Connecting_IP": test{payload),
+"X-Forwarded-Proto": test (payload),
+"Host" test(payload),
+"Proxy-Host":test(payload),
+"From": test@(payload),
+"Client-IP": test(payload),
+"X-Forwarded-Server": test(payload),
+"X-Arbitrary": test{payload),
+"X-Real-IP": test(payload),
+~/. akp
